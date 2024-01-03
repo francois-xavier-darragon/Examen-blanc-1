@@ -47,6 +47,9 @@ body {
     padding-right: 0;
 
 }
+.primary {
+    background-color: #031633;
+}
 .contact-nav {
     display: flex;
     align-items: end;
