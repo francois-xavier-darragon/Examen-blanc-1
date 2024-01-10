@@ -27,7 +27,7 @@ body {
     margin-left: 5rem;
 }
 .navbar {
-    background-color: #031633;
+    background: linear-gradient(to right, #333, #63B6BE);
 }
 .navbar,
 .navbar-brand,
@@ -114,24 +114,56 @@ ul, li {
 --------------------------------------------------*/
 .about-us {
     border-top: 1px solid #000;
-    background-color: #5983c2;
+    background: linear-gradient(#63B6BE, #333);
     color: #fff;
-    padding: 20px; 
-}
-.about-us h2 {
-    color: #fff; 
-    font-size: 2em;
-    margin-bottom: 15px; 
-}
-.about-us p {
-    line-height: 1.6; 
-    margin-bottom: 15px;
-    white-space: pre-line 
+    padding: 50px 20px 
 }
 .about-us-content {
     max-width: 800px; 
     margin: 0 auto; 
 }
+.about-us-content h2 {
+   
+    font-size: 2em;
+    margin-bottom: 15px; 
+}
+.about-us-content p {
+   
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+    white-space: pre-line 
+}
+
+/* EVENT
+--------------------------------------------------*/
+.event {
+    display: flex;
+    justify-content: end;
+}
+.event-info {
+    margin: 6rem 6rem 6rem 6rem; 
+    display: flex;
+    border-radius: 5%;
+    border: 1px solid black;
+    width: 800px;
+    padding: 2rem;
+}
+
+.event-info .special-img {
+    order: 1;
+    margin: 2rem 2rem 2rem 0; 
+    
+}
+
+.event-info .text-content {
+    order: 2; 
+    
+}
+
+.text-content p {
+    margin: 2rem 2rem 2rem 2rem ;
+ }
+
 /* FOOTER 
 --------------------------------------------------*/
 footer {
@@ -141,7 +173,7 @@ footer {
     background-color: #333;
     color: white;
     width: 100%;
-    
+    bottom: 0;
 }
 /* RESPONSIVE 
 -------------------------------------------------- */
