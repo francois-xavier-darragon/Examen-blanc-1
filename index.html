@@ -4,27 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-    <link rel="stylesheet" href="docs/assets/css/styles.css">
-    <link rel="icon" href="docs/assets/images/logo.jpg"  />
+    <link rel="canonical" href="https://getbootstrap.com/5.0/examples/carousel/">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/images/logo.jpg"  />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <title>Asso</title>
+    <title>Les Gardiens du Rivage</title>
 </head>
 <body>
     <header>
     <nav class="navbar navbar-expand-lg navbar-dark primary ">
     <div class="container-fluid">
-        <!-- Logo aligné à gauche -->
-        <a class="navbar-brand" href="index.html">
-            <img class="bd-placeholder-img rounded-circle" src="docs/assets/images/logo.jpg" alt="logo-association" width="50" height="50" class="d-inline-block align-text-top">
-        </a>
 
-        <!-- Bouton de bascule aligné à droite -->
+        <a class="navbar-brand" href="index.html">
+            <img class="bd-placeholder-img rounded-circle logo-association" src="assets/images/logo.jpg" alt="logo-association" width="50" height="50" class="d-inline-block align-text-top">
+        </a>
+        <p style="color: white;">Les Gardiens du Rivage</p>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Liens du menu alignés à droite -->
         <div class="collapse navbar-collapse justify-content-end ms-auto" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -34,6 +32,8 @@
         </div>
     </div>
     </nav>
+  </header>
+  <section>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -43,7 +43,7 @@
           
           <div class="carousel-inner"> 
               <div class="carousel-item active" >
-                <img src="docs/assets/images/littoral-01.jpg"
+                <img src="assets/images/littoral-01.jpg"
                     class="d-block" alt="litoral-sete">
                 <div class="container">
                   <div class="carousel-caption">
@@ -54,7 +54,7 @@
               </div>
 
               <div class="carousel-item">
-                <img src="docs/assets/images/littoral-02.jpg"
+                <img src="assets/images/littoral-02.jpg"
                 class="d-block" alt="litoral-bretagne">
                 <div class="container">
                   <div class="carousel-caption">
@@ -65,7 +65,7 @@
               </div>
 
               <div class="carousel-item">
-                <img src="docs/assets/images/littoral-03.jpg"
+                <img src="assets/images/littoral-03.jpg"
                 class="d-block" alt="litoral-marseille">
                 <div class="container">
                   <div class="carousel-caption">
@@ -85,49 +85,36 @@
               <span class="visually-hidden">Next</span>
           </button>
       </div>
-   
-    </header>
-
-    <section>
-        <div class="container marketing">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="docs/assets/images/preserver.jpg" alt="#">
-                    <h2>#</h2>
-                    <p>#</p>
-                </div>
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="docs/assets/images/nettoyer.jpg" alt="#">
-                    <h2>#</h2>
-                    <p>#</p>
-                </div>
-                <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="docs/assets/images/echanges.jpg" alt="#">
-                    <h2>#</h2>
-                    <p>#</p>
-                </div>
-            </div>
-        </div>   
-    </section>
-    <footer class="footer py-">
-        <div class="container">
-          
-          <p class="lead"> 
-              <span style="font-size:20px;"> 
-                      <a class= "" href="" >#</a>
-              </span>
-          </p>
-          <p class="lead">  
-              <span style="font-size:20px;"> 
-                      <a class= "" href="">#</a>
-              </span> 
-          </p>
-          <div>
-            <a class="legal-notice" href="">#</a>
-          </div>
-          <p><span class="text-muted"></span></p>
-          
-        </div>
-      </footer>
+  </section>
+  <section class="commitment">
+      <!-- <div class="container marketing"> -->
+          <ul class="row" style="text-align: center;" >
+              <li class="col-lg-4">
+                  <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="assets/images/preserver.jpg" alt="#">
+                  <h2>Presèrver</h2>
+                  <p>#</p>
+              </li>
+              <li class="col-lg-4">
+                  <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="assets/images/nettoyer.jpg" alt="#">
+                  <h2>Organiser des événements</h2>
+                  <p>#</p>
+              </li>
+              <li class="col-lg-4">
+                  <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="assets/images/echanges.jpg" alt="#">
+                  <h2>Favoriser les échanges</h2>
+                  <p>#</p>
+              </li>
+          </ul>
+       <!-- </div>    -->
+  </section>
+  <footer class="footer py-">
+      <div class="container">
+        <p style="text-align: center;"> 
+            <span style="font-size:20px;"> 
+                @ 2024 copyright
+            </span>
+        </p>      
+      </div>
+    </footer>
 </body>
 </html>
